@@ -1,0 +1,11 @@
+# Ignore datasets
+*.csv
+*.json
+
+# Ignore training scripts (optional)
+prepare_dataset.py
+model.py
+
+# Ignore Python cache
+__pycache__/
+*.pyc
