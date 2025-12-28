@@ -9,6 +9,7 @@ from nltk.tokenize import word_tokenize
 
 # Download required resources (one-time cached)
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Load trained model & vectorizer
